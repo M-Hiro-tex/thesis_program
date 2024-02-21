@@ -2,7 +2,7 @@
 ## The structure of the repository
 ### Directories of program codes and data storing
 ```mermaid
-graph TD
+graph LR
     Programs[/Programs/] --> data_generator_py[data_generator.py]
     Programs --> picture_scatter_nPy_py[picture_scatter_nPy.py]
     Programs --> picture_vertex_nPy_py[picture_vertex_nPy.py]
@@ -45,5 +45,6 @@ to obtain data that are automatically stored in 'Simulation_Data' directory (Sam
 **glist**:
  - `picture_scatter_nPy.py`
  - `picture_vertex_nPy.py`
+
 **vlistwc**:
  - `vlistwc_vispy_nPy.py`
