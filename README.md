@@ -1,27 +1,24 @@
 # Introduction
 ## The structure of the repository
+### 0. Directories of program codes and data storing
+```mermaid
+graph TD
+    Programs[/Programs/] --> data_generator_py[data_generator.py]
+    Programs --> picture_scatter_nPy_py[picture_scatter_nPy.py]
+    Programs --> picture_vertex_nPy_py[picture_vertex_nPy.py]
+    Programs --> vlistwc_vispy_nPy_py[vlistwc_vispy_nPy.py]
+
+    simulation_data[/simulation_data/] --> colornum_X[/colornum_X/]
+    colornum_X --> iteration_Y[/iteration_Y/]
+    iteration_Y --> glist[/glist/]
+    glist --> glist_N_py[glist_N.npy]
+    iteration_Y --> vlistwc[/vlistwc/]
+    vlistwc --> coords_N_py[coords_N.npy]
+    vlistwc --> colors_N_py[colors_N.npy]
+    iteration_Y --> tetrawc[/tetrawc/]
+    tetrawc --> tetra_coords_N_py[tetra_coords_N.npy]
 ```
-/Programs
-├── data_generator.py
-├── picture_scatter_nPy.py
-├── picture_vertex_nPy.py
-└── vlistwc_vispy_nPy.py
 
-/simulation_data
-└── colornum_X
-  └── iteration_Y
-    ├── glist
-      └── glist_N.npy
-    |── vlistwc
-      ├── coords_N.npy
-      └── colors_N.npy
-    └── tetrawc
-      └── tetra_coords_N.npy
-
-/run_venv
-
-README.md
-```
 ## How to use
 ### 1. Activate the virtual environment of Python 3.10.12
 <table>
