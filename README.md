@@ -38,6 +38,7 @@ README.md
  </tr>
 </table>
 to be able to use modules for runniing codes in the 'Programs' directory.
+
 ### 2. Run *data_generator.py*
 ```
 python3 data_generator.py
