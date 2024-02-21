@@ -1,6 +1,6 @@
 # Introduction
 ## The structure of the repository
-### 0. Directories of program codes and data storing
+### Directories of program codes and data storing
 ```mermaid
 graph TD
     Programs[/Programs/] --> data_generator_py[data_generator.py]
