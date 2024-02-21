@@ -42,8 +42,8 @@ python3 data_generator.py
 ```
 to obtain data that are automatically stored in 'Simulation_Data' directory (Sample data have been already prepared in 'Simulation_Data' though :smile:).
 ### 3. Visualize data
-- **glist**:
+**glist**:
  - `picture_scatter_nPy.py`
  - `picture_vertex_nPy.py`
-- **vlistwc**:
+**vlistwc**:
  - `vlistwc_vispy_nPy.py`
