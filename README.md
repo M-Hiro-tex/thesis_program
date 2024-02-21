@@ -24,10 +24,19 @@ README.md
 ```
 ## How to use
 ### 1. Activate the virtual environment of Python 3.10.12
-| OS | command line |
-|:---------:|:-------:|
-| Linux/mac | ```source run_venv/bin/activate``` |
-| Windows | ```/run_venv/bin/activate``` |
+<table>
+ <thead>
+  <tr>
+   <th>OS</th> <th>command line</th>
+  </tr>
+ </thead>
+ <tr>
+  <td> Linux/mac </td> <td>```source run_venv/bin/activate```</td>
+ </tr>
+ <tr>
+  <td >Windows </td> <td>```/run_venv/bin/activate```</td>
+ </tr>
+</table>
 to be able to use modules for runniing codes in the 'Programs' directory.
 ### 2. Run *data_generator.py*
 ```
