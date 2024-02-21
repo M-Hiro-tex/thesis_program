@@ -31,10 +31,10 @@ README.md
   </tr>
  </thead>
  <tr>
-  <td> Linux/mac </td> <td>```source run_venv/bin/activate```</td>
+  <td> Linux/mac </td> <td> \``` source run_venv/bin/activate \``` </td>
  </tr>
  <tr>
-  <td >Windows </td> <td>```/run_venv/bin/activate```</td>
+  <td >Windows </td> <td> \``` /run_venv/bin/activate \``` </td>
  </tr>
 </table>
 to be able to use modules for runniing codes in the 'Programs' directory.
