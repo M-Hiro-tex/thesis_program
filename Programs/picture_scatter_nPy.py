@@ -3,9 +3,8 @@ import vispy.scene
 from vispy.scene import visuals
 
 
-# npyファイルからデータを読み込む
-glist = np.load("./glist_50000/glist_50000_7colors_0.npy")
-# glistを正規化する
+# read from .npy file
+glist = np.load("/{"your path"}/colornum_{X}/iteration_{Y}/glist/glist_{N}.npy")
 glist_array = np.array(glist)
 
 print("The length of the list is: ", len(glist_array))

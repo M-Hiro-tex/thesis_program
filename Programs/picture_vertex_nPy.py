@@ -7,9 +7,9 @@ def euclidean_distance(point1, point2):
     return np.sqrt(np.sum((point1 - point2) ** 2))
 
 # Load data from file
-glist = np.load("./glist_periodic_5000/glist_5000_8colors_0.npy")
+glist = np.load("/{"your path"}/colornum_{X}/iteration_{Y}/glist/glist_{N}.npy")
 glist_array = np.array(glist)
-np.savetxt('glist_periodic.csv', glist_array, delimiter=",")
+
 # Ensure the array is 2D with shape (N, 3)
 assert glist_array.ndim == 2 and glist_array.shape[1] == 3, "glist must be a 2D array with shape (N, 3)"
 

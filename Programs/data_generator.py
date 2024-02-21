@@ -64,7 +64,7 @@ def collect_simulation_data(a, b, c, iteration_number, colornum):
     return vlistwc, tlistwc
 
 def simulate_and_save_all_data(a, b, c, iteration_numbers, colornums, times):
-    base_directory = "/home/mumu/thesis_program/Simulation_Data"
+    base_directory = "/{"your path"}/thesis_program/Simulation_Data"
     if not os.path.exists(base_directory):
         os.makedirs(base_directory)
     
